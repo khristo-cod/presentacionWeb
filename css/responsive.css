@@ -1,0 +1,96 @@
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+body{
+    width: 425px;
+    margin: auto;
+}
+/*Menu*/
+
+.menu__nav{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.menu__header{
+    padding: 1rem;
+    align-items: center;
+}
+
+.menu__list, .menu__list__item{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/*Titulo*/
+
+.title__div{
+    flex-direction: column;
+}
+
+.title__profile{
+    width: 35%;
+    align-content: center;
+}
+
+.title__subsection, .title__bio {
+    font-size: 1.5em;
+}
+/*Sección sobre mi*/
+.about__title{
+    font-size: 1.25em;
+}
+
+.about__paragraph{
+    width: 98%;
+}
+
+/*Skills*/
+.section__container-skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.skills__title{
+    font-size: 1.5em;
+}
+
+.skills, .skills__line{
+width: 425px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.skills-img{
+    width: 100%;
+    flex-shrink:3;
+    flex-direction: column;
+}
+
+.skills__box{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
